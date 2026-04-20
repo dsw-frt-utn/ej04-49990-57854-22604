@@ -10,8 +10,10 @@ public class Persistencia {
     private static ArrayList<Responsable> responsables = new ArrayList<>();
     private static ArrayList<Sucursal> sucursales = new ArrayList<>();
     
+    //se inicializa marcas
+    
         private static void inicializarMarcas(){
-        Marca m1 = new Marca("Renault", "Italia");
+        Marca m1 = new Marca("Renault", "Italia");  
         Marca m2 = new Marca("Ford", "USA");
         Marca m3 = new Marca("Iveco", "Italia");
         Marca m4 = new Marca("Mercedes", "Alemania");
