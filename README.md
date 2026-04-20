@@ -1,2 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/39DJV9ho)
+## Desarrollo de Software 2026 
 
+Ejercicio Numero 4
+
+## Integrantes
+
+### Tessari Medina Franco Maximiliano 
+### Legajo: 49990 
+### Github: frantessari0@gmail.com
+
+### Suarez Jose Augusto
+### Legajo: 22604  
+### Github: joseaugustosuarez@hotmail.com
+
+### Virginia Llevara Torres
+### Legajo: 57854
+### Github: virginiallevaratorres@gmail.com
