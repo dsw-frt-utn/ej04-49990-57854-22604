@@ -54,20 +54,32 @@ public class Persistencia {
         vehiculos.add(v4);
     }
     
-    public static ArrayList<Vehiculo> getVehiculos(){
-        return vehiculos;
+    public static void agregarVehiculo(Vehiculo v) {
+        vehiculos.add(v);
     }
-    
+     
     public static Optional<Vehiculo> getVehiculo(String patente){
         return vehiculos.stream()
                 .filter(v -> v.getPatente().equals(patente))
                 .findFirst();
     }
     
+    public static ArrayList<Vehiculo> getVehiculos(){
+        return vehiculos;
+    }
+       
+     public static ArrayList<Marca> getMarcas() {
+        return marcas;
+    }
+
+    public static ArrayList<Sucursal> getSucursales() {
+        return sucursales;
+    }
+    
     public static void inicializar(){
         inicializarMarcas();
         inicializarResponsables();
         inicializarSucursales();
-        inicializarVehiculos();
+       // inicializarVehiculos();
     }
 }

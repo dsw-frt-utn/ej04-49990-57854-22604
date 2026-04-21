@@ -31,4 +31,19 @@ public class Controlador {
         }
         return new double[] {consumoElectricos, consumoCombustible};
     }
+    
+     public static String agregarNuevoVehiculo(Vehiculo v){
+        String respuesta = "Ok";
+        // Recorremos la lista de vehiculos
+        for (Vehiculo V : Persistencia.getVehiculos()){
+            // Verificamos si hay pantente que coincida
+            if (V.getPatente().equals(v.getPatente())){
+                respuesta = "Concidencia";
+                return respuesta;
+            }
+        }
+        // No encontramos coincidencia por lo que se cargo el vehiculo
+        Persistencia.agregarVehiculo(v);
+        return respuesta;
+    }
 }
